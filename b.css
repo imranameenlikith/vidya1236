@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #354477;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.guest {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.score {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+h1 {
+    color: rgb(224, 98, 136);
+    font-size: 80px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #E5E5E5;
+}
+
+button {
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #E5E5E5;
+    background-color: #354477;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #E5E5E5;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#newgame {
+    width: 200px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: rgb(224, 98, 136);
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+
+}
+#savebtn
+ {
+    width: 200px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: rgb(235, 114, 57);
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+
+}
+
+.heading {
+    width: 100%;
+    height: 60px;
+    background-color: #354477;
+
+}
+
+#headline {
+    font-weight: 800;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(223, 77, 121),#eee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+#tools{
+    display: flex;
+    flex-direction: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+p{
+    padding:10px;
+    font-size: 20px;
+    color:#E5E5E5;
+}
+p:nth-of-type(1)
+{
+    color: rgb(158, 157, 157);
+    font-weight: bold;
+    text-decoration: underline;
+}
